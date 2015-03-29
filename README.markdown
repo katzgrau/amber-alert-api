@@ -18,6 +18,37 @@ For a call to get missing persons by state, it first reads the publically
 available RSS feed, parses out the case number, and uses that case number to
 call the aforementioned webservice call.
 
+## Example (by State)
+
+```php
+# Get the last Amber Alert for NJ
+
+require '../AmberAlert.php';
+print_r(AmberAlert::getMostRecentAlertByState('NJ', true));
+
+```
+
+... which outputs ...
+
+```
+stdClass Object
+(
+    [hasAgedPhoto] =>
+    [hasExtraPhoto] => 1
+    [possibleLocation] =>
+    [caseNumber] => 1245612
+    [orgPrefix] => NCMC
+    [seqNumber] => 1
+    [langId] => en_US
+    [userLangId] => en_US
+    [firstName] => DONTEL
+    [lastName] => MICHAELS
+    [middleName] =>
+    [approxAge] =>
+    [sex] => male
+    ...
+```
+
 ## License
 
 The MIT License
