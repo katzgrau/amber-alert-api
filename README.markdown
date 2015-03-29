@@ -46,6 +46,36 @@ stdClass Object
     [middleName] =>
     [approxAge] =>
     [sex] => male
+    [race] => black
+    [birthDate] => Mar 23, 1999 12:00:00 AM
+    [height] => 75
+    [heightInInch] => 1
+    [weight] => 165
+    [weightInPound] => 1
+    [eyeColor] => black
+    [hairColor] => black
+    [hasPhoto] => 1
+    [hasThumbnail] => 1
+    [hasPoster] => 1
+    [otherChildList] => Array
+        (
+        )
+
+    [otherCsawList] => Array
+        (
+        )
+
+    [caseType] => endangeredRunaway
+    [missingDate] => Mar 9, 2015 12:00:00 AM
+    [missingCity] => PATERSON
+    [missingCounty] => Passaic
+    [missingState] => NJ
+    [missingProvince] =>
+    [missingCountry] => US
+    [circumstance] => Both photos shown are of Dontel.  He was last seen on March 9, 2015.  Dontel may wear his hair in a pony tail.
+    [profileNarrative] =>
+    [orgName] => National Center for Missing & Exploited Children
+    [orgContactInfo] => 1-800-843-5678 (1-800-THE-LOST)
     ...
 ```
 
