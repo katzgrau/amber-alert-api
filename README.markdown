@@ -5,10 +5,15 @@ and case number. Right now, it only supports PHP, but that will change.
 
 ## AmberAlert API?
 
-Right now, there isn't a natural way to "programmatically" pull AmberAlert 
+Right now, there isn't an official way to "programmatically" pull AmberAlert 
 data from either AmberAlert.gov or the National Center for Missing Children.
-Developers who want to help the cause should really have a REST API made
-available to them (or anything, I'll take XMLRPC if I have to).
+
+An unofficial service with a RESTful API is available at 
+[www.missingkidsbot.org](http://www.missingkidsbot.org/api) that parses the
+RSS feed from [missingkids.org](http://missingkids.org) similar to what is
+outlined below.
+
+## Parsing RSS
 
 The methodology of this library is to use NCMC's internal webservice call
 intented for their online "poster", which contains all the missing person
